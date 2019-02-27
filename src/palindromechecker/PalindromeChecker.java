@@ -21,7 +21,7 @@ public class PalindromeChecker {
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); //sets up scanner
-        System.out.println("Enter a Phrase, And I will tell u how many Palindromes there are"); //prompt
+        System.out.println("Enter a Phrase, And I will tell u how many Palindromes there are:"); //prompt
         
         String[] words = in.nextLine().split(" "); //gets an array of words in sentence
         
